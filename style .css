@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+.clear {
+    clear: both;
+}
+
+
+.main-box{
+    display: flex;
+    gap: 10px;  
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box2 {
+    
+    height:200px;
+    width: 200px;
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 40px;
+    color:bisque
+ }   
+    .box-8 {
+        order:-1;
+    }
+
+
+
